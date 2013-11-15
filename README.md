@@ -22,11 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-Provide an easting, northing and coordinate type (either `:gb` or `:ie` - default is `:gb`) as below:
+Provide an easting, northing and coordinate type (either `:gb` or `:ie` - default is `:gb`):
 
     en = Breasal::EastingNorthing.new(easting: 412617, northing: 308885, type: :gb)
   
-Get the WGS84 latlng as follows:
+Get the WGS84 latlng:
 
     en.to_wgs84 # => {:latitude=>52.67752501534847, :longitude=>-1.8148108086293673}
 
