@@ -1,5 +1,4 @@
 require "breasal/version"
-
-module Breasal
-  # Your code goes here...
-end
+require "breasal/utils"
+require "breasal/latlng"
+require "breasal/easting_northing"
