@@ -1,6 +1,10 @@
 # Breasal
 
-TODO: Write a gem description
+A Ruby gem that converts both British and Irish Eastings and northing to WGS84 latitude and longitude.
+
+Based on the work by [Andrew Sprinz at Lambeth Council](https://github.com/LambethCouncil/OSGB36_Converter), and created in anger as part of work on [UK Postcodes](https://github.com/theodi/uk-postcodes)
+
+Breasal is the Welsh and Cornish God of all earth, so I thought him suitably Celtic to cover all the British isles.
 
 ## Installation
 
@@ -18,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Provide an easting, northing and coordinate type (either `:gb` or `:ie` - default is `:gb`) as below:
+
+  en = Breasal::EastingNorthing.new(easting: 412617, northing: 308885, type: :gb)
+  
+Get the WGS84 latlng as follows:
+
+  en.to_wgs84 # => {:latitude=>52.67752501534847, :longitude=>-1.8148108086293673}
 
 ## Contributing
 
