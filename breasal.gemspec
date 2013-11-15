@@ -6,11 +6,10 @@ require 'breasal/version'
 Gem::Specification.new do |spec|
   spec.name          = "breasal"
   spec.version       = Breasal::VERSION
-  spec.authors       = ["pezholio"]
-  spec.email         = ["pezholio@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["Stuart Harrison"]
+  spec.email         = ["stuart.harrison@theodi.org"]
+  spec.description   = %q{A Ruby gem that converts both British and Irish Eastings and northing to WGS84 latitude and longitude}
+  spec.homepage      = "https://github.com/theodi/breasal"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
