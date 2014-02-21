@@ -1,3 +1,11 @@
+[![Build Status](http://img.shields.io/travis/theodi/breasal.svg)](https://travis-ci.org/theodi/breasal)
+[![Dependency Status](http://img.shields.io/gemnasium/theodi/breasal.svg)](https://gemnasium.com/theodi/breasal)
+[![Coverage Status](http://img.shields.io/coveralls/theodi/breasal.svg)](https://coveralls.io/r/theodi/breasal)
+[![Code Climate](http://img.shields.io/codeclimate/github/theodi/breasal.svg)](https://codeclimate.com/github/theodi/breasal)
+[![Gem Version](http://img.shields.io/gem/v/breasal.svg)](https://rubygems.org/gems/breasal)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
+[![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/pikesley/badger)
+
 # Breasal
 
 A Ruby gem that converts both British and Irish Eastings and northing to WGS84 latitude and longitude.
