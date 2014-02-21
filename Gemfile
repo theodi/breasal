@@ -1,4 +1,4 @@
-#ruby=ruby-1.9.3
+#ruby=ruby-2.1.0
 #ruby-gemset=breasal
 
 source 'https://rubygems.org'
