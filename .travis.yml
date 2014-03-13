@@ -9,4 +9,12 @@ notifications:
     template:
       - "%{repository} %{branch} - %{message} %{build_url}"
     on_success: change
-    on_failure: always  
+    on_failure: always
+deploy:
+  provider: rubygems
+  api_key:
+    secure: "UZ7kuAfrrDfKSsmWwiPq1kS9jThJPFcxwSEyfH2sRSy4GAqqMp/E3y3Iuqbkh6GX4NFWzPtGImxcZ+9P6yoBf9Sk+N5mfUY2zyRtcjbTYZ00jvBQLgwaAh3dTRu0NXpBchn+87p7bEwV6mo4AFiacy2k/nrLdIMiyTPuqE8a1r4="
+  gem: breasal
+  on:
+    tags: true
+    repo: theodi/breasal
