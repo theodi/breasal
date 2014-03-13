@@ -18,7 +18,7 @@ Breasal is the Welsh and Cornish God of all earth, so I thought him suitably Cel
 
 Add this line to your application's Gemfile:
 
-    gem 'breasal', :github => 'theodi/breasal'
+    gem 'breasal'
 
 And then execute:
 
